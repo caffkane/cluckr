@@ -1,0 +1,16 @@
+<%- include("./partials/header") %>
+<h1>Sign In</h1>
+<div class="row">
+    <div class="col-sm-6">
+        <form action="/sign_in" method="POST">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" class="form-control" id="inputUsername"
+                    placeholder="e.g. Madam Welminster">
+                <input type="submit" value="Log In" class="btn btn-outline-secondary">
+            </div>
+        </form>
+    </div>
+</div>
+
+<%- include("./partials/footer") %>
